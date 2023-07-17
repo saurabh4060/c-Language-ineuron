@@ -1,0 +1,88 @@
+1. Write a C program to print Hello Students on the screen.
+ANS-
+#include<stdio.h>
+main()
+{
+    printf("Hello students");
+}
+
+
+2. Write a C Program to print Hello on the first line and Students in the second line.
+ANS- 
+#include<stdio.h>
+main()
+{
+    printf("Hello\nStudents");
+}
+
+3. Write a C program to print “MySirG” on the screen
+ANS- 
+
+#include<stdio.h>
+main()
+{
+    printf("\"MySirG\"");
+}
+
+4. Write a C program to print “Teacher’s Day” on the screen
+ANS-
+
+#include<stdio.h>
+main()
+{
+    printf("\"Teacher's Day\"");
+}
+
+
+5. Write a C program to print \n on the screen
+ANS- 
+
+#include<stdio.h>
+main()
+{
+    printf("\\n");
+}
+
+
+6. Write a C program to print %d on the screen
+ANS-
+
+#include<stdio.h>
+main()
+{
+  printf("%%d");
+}
+
+
+7. Write a C program containing declaration of three variables (of type int, char and
+float), also assign some values to them and print values of all three variables using
+single printf().
+
+ANS-
+
+#include<stdio.h>
+int a=5;
+float b=5.5;
+char c='B';
+main()
+{
+    printf("%d %f %c",a,b,c);
+}
+
+
+
+8. Explore following format specifiers on internet - %i, %g, %lf
+
+ANS-
+1) The format specifier %i takes integer value as an integer value which means values should be decimal
+2)The %g specifier displays the output same as the input with a same precision
+3)For printf , arguments of type float are promoted to double so both %f and %lf are used for double 
+
+9. Write a C program to print character stored in a char variable, also print its ASCII
+code.
+
+
+
+
+10. How to convert a Decimal number into a Binary number and vice versa.
+
